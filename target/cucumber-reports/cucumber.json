@@ -1,0 +1,353 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13406000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.launch_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T18:36:39.455Z",
+        "line": 24,
+        "name": "Search for Cucumber in Google",
+        "description": "",
+        "id": "google-search;search-for-cucumber-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1053000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.FirstStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3203000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Hit Google on your browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.hit_Google_on_your_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 980000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter \"Cucumber\" in the search text box.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefs.FirstStepDef.enter_in_the_search_text_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1634000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Select the first result.",
+            "match": {
+              "location": "stepDefs.FirstStepDef.select_the_first_result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5725000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.launch_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T18:36:59.806Z",
+        "line": 29,
+        "name": "Search for Selenium in Google",
+        "description": "",
+        "id": "google-search;search-for-selenium-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 742000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.FirstStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1393000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Hit Google on your browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.hit_Google_on_your_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter \"Selenium\" in the search text box.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefs.FirstStepDef.enter_in_the_search_text_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1579000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select the first result.",
+            "match": {
+              "location": "stepDefs.FirstStepDef.select_the_first_result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6151000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.launch_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T18:37:09.419Z",
+        "line": 34,
+        "name": "Search for Jenkins in Google",
+        "description": "",
+        "id": "google-search;search-for-jenkins-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 746000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.FirstStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Hit Google on your browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.hit_Google_on_your_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Enter \"Jenkins\" in the search text box.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jenkins\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefs.FirstStepDef.enter_in_the_search_text_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1284000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Select the first result.",
+            "match": {
+              "location": "stepDefs.FirstStepDef.select_the_first_result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6630000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.launch_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T18:37:19.516Z",
+        "line": 39,
+        "name": "Search for TestNG in Google",
+        "description": "",
+        "id": "google-search;search-for-testng-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 827000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.FirstStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1869000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Hit Google on your browser",
+            "match": {
+              "location": "stepDefs.FirstStepDef.hit_Google_on_your_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Enter \"TestNG\" in the search text box.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestNG\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefs.FirstStepDef.enter_in_the_search_text_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1386000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Select the first result.",
+            "match": {
+              "location": "stepDefs.FirstStepDef.select_the_first_result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loginFeature.feature",
+    "tags": []
+  }
+]
